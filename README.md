@@ -1,5 +1,5 @@
 Gateways javaScript
-This is an assingment from Musala Soft.
+This is an assingment.
 
 Previous requirements
 - Node.js (v14.21 or higher)
