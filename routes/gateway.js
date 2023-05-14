@@ -26,6 +26,24 @@ app.get('/', async (req, res) => {
         }
 });
 // =======================================================
+// Get One Gateway
+// =======================================================
+app.get('/:gatewayId', async (req, res) => {
+    try {
+        const gateway = await Gateway.findById(req.params.gatewayId);
+        res.status(200).json({
+            ok: true,
+            gateways: gateway,
+        });
+        } catch (e) {
+            res.status(500).json({
+                ok: false,
+                mensaje: 'Error finding Gateway',
+                errors: e,
+              });
+        }
+});
+// =======================================================
 // Create new Gateway
 // =======================================================
 app.post('/', validateFields, async (req, res) => {

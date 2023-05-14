@@ -34,7 +34,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"serialNumber\": \"112\",\r\n    \"fullName\" : \"Gateway2\",\r\n    \"ipv4Address\" : \"192.168.1.2\"\r\n}",
+							"raw": "{\r\n    \"serialNumber\": \"117\",\r\n    \"fullName\" : \"Gateway6\",\r\n    \"ipv4Address\" : \"192.168.1.7\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -62,7 +62,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n  \"serialNumber\": \"113\",\r\n  \"fullName\": \"Gateway modificado\",\r\n  \"ipv4Address\": \"192.168.1.100\"\r\n}",
+							"raw": "{\r\n  \"serialNumber\": \"119\",\r\n  \"fullName\": \"Gateway modificado2\",\r\n  \"ipv4Address\": \"192.168.1.11\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -99,7 +99,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/gateways/645f9e15c2909cd61456ca5c",
+							"raw": "http://localhost:3000/gateways/64603d8137325358bb6e36f8",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -107,7 +107,27 @@
 							"port": "3000",
 							"path": [
 								"gateways",
-								"645f9e15c2909cd61456ca5c"
+								"64603d8137325358bb6e36f8"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetOneGateway",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/gateways/645f9acd3961aafdbd8547da",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gateways",
+								"645f9acd3961aafdbd8547da"
 							]
 						}
 					},
@@ -146,7 +166,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"uid\": 21,\r\n    \"vendor\": \"Jorge Gonzalez Roman\"\r\n}",
+							"raw": "{\r\n    \"uid\": 25,\r\n    \"vendor\": \"Test 4\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -154,7 +174,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/devices/645f9acd3961aafdbd8547da/devices",
+							"raw": "http://localhost:3000/devices/645fe3632b3a68c13445135d/devices",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -162,7 +182,7 @@
 							"port": "3000",
 							"path": [
 								"devices",
-								"645f9acd3961aafdbd8547da",
+								"645fe3632b3a68c13445135d",
 								"devices"
 							]
 						}
