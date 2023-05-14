@@ -32,7 +32,7 @@ Execution of the project under development (npm start).
 Execution of tests (npm test).
 Execution of automated build (npm run build)
 
-Contact
-Jorge Gonzalez Roman.
+Contact:
+Jorge Gonzalez Roman
 groman.ssp@gmail.com
 +5354126581
