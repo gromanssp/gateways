@@ -1,0 +1,50 @@
+{ 
+    "_id" : ObjectId("645f9acd3961aafdbd8547da"), 
+    "serialNumber" : "113", 
+    "fullName" : "Gateway modificado", 
+    "ipv4Address" : "192.168.1.100", 
+    "devices" : [
+        ObjectId("645fb0a0ee8cbc456f305c44"), 
+        ObjectId("645fb0aeee8cbc456f305c4a"), 
+        ObjectId("645fb0dfee8cbc456f305c54"), 
+        ObjectId("645fb0f6ee8cbc456f305c5e"), 
+        ObjectId("645fb100ee8cbc456f305c64"), 
+        ObjectId("645fb10bee8cbc456f305c6a"), 
+        ObjectId("645fb115ee8cbc456f305c70"), 
+        ObjectId("645fb11eee8cbc456f305c76"), 
+        ObjectId("645fddef8f8172b0492370a3")
+    ], 
+    "__v" : NumberInt(11)
+},
+{ 
+    "_id" : ObjectId("645fe34e2b3a68c134451356"), 
+    "serialNumber" : "114", 
+    "fullName" : "Gateway3", 
+    "ipv4Address" : "192.168.1.3", 
+    "devices" : [
+        ObjectId("645fe3bc2b3a68c13445136b"), 
+        ObjectId("645fe3c82b3a68c134451371")
+    ], 
+    "__v" : NumberInt(2)
+},
+{ 
+    "_id" : ObjectId("645fe3632b3a68c13445135d"), 
+    "serialNumber" : "115", 
+    "fullName" : "Gateway3", 
+    "ipv4Address" : "192.168.1.4", 
+    "devices" : [
+        ObjectId("645fe3e62b3a68c134451379"), 
+        ObjectId("645fe3f42b3a68c134451383")
+    ], 
+    "__v" : NumberInt(2)
+},
+{ 
+    "_id" : ObjectId("645fe3772b3a68c134451363"), 
+    "serialNumber" : "116", 
+    "fullName" : "Gateway5", 
+    "ipv4Address" : "192.168.1.5", 
+    "devices" : [
+
+    ], 
+    "__v" : NumberInt(0)
+}

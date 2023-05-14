@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "9f25f303-1ff2-4cca-811c-94d6f0972fd3",
+		"name": "Gateway",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Gateways",
+			"item": [
+				{
+					"name": "GetAllGateways",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/gateways",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gateways"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Gateway",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"serialNumber\": \"112\",\r\n    \"fullName\" : \"Gateway2\",\r\n    \"ipv4Address\" : \"192.168.1.2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/gateways",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gateways"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Gateway",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"serialNumber\": \"113\",\r\n  \"fullName\": \"Gateway modificado\",\r\n  \"ipv4Address\": \"192.168.1.100\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/gateways/645f9acd3961aafdbd8547da",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gateways",
+								"645f9acd3961aafdbd8547da"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Gateway",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"serialNumber\": \"113\",\r\n  \"fullName\": \"Gateway modificado\",\r\n  \"ipv4Address\": \"192.168.1.100\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/gateways/645f9e15c2909cd61456ca5c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"gateways",
+								"645f9e15c2909cd61456ca5c"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Devices",
+			"item": [
+				{
+					"name": "Get Devices for Gateway",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/devices/645f9acd3961aafdbd8547da/devices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"devices",
+								"645f9acd3961aafdbd8547da",
+								"devices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Device for Gateway",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"uid\": 21,\r\n    \"vendor\": \"Jorge Gonzalez Roman\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/devices/645f9acd3961aafdbd8547da/devices",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"devices",
+								"645f9acd3961aafdbd8547da",
+								"devices"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Device",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"uid\": 21,\r\n    \"vendor\": \"Jorge Gonzalez\",\r\n    \"status\" : \"online\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/devices/devices/645fddef8f8172b0492370a",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"devices",
+								"devices",
+								"645fddef8f8172b0492370a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Device",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"uid\": 21,\r\n    \"vendor\": \"Jorge Gonzalez\",\r\n    \"status\" : \"offline\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/devices/devices/645fafdcee8cbc456f305c38",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"devices",
+								"devices",
+								"645fafdcee8cbc456f305c38"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GetServerStatus",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

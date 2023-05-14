@@ -1,0 +1,104 @@
+{ 
+    "_id" : ObjectId("645fb0a0ee8cbc456f305c44"), 
+    "uid" : NumberInt(12), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T15:45:36.238+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb0aeee8cbc456f305c4a"), 
+    "uid" : NumberInt(13), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T15:45:50.743+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb0dfee8cbc456f305c54"), 
+    "uid" : NumberInt(14), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:46:39.624+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb0f6ee8cbc456f305c5e"), 
+    "uid" : NumberInt(15), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:47:02.578+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb100ee8cbc456f305c64"), 
+    "uid" : NumberInt(16), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:47:12.942+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb10bee8cbc456f305c6a"), 
+    "uid" : NumberInt(17), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:47:23.351+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb115ee8cbc456f305c70"), 
+    "uid" : NumberInt(18), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:47:33.368+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fb11eee8cbc456f305c76"), 
+    "uid" : NumberInt(19), 
+    "vendor" : "Jorge Gonzalez Roman", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T15:47:42.145+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fddef8f8172b0492370a3"), 
+    "uid" : NumberInt(21), 
+    "vendor" : "Jorge Gonzalez", 
+    "status" : "online", 
+    "date" : ISODate("2023-05-13T18:58:55.360+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fe3bc2b3a68c13445136b"), 
+    "uid" : NumberInt(22), 
+    "vendor" : "Test", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T19:23:40.517+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fe3c82b3a68c134451371"), 
+    "uid" : NumberInt(23), 
+    "vendor" : "Test 2", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T19:23:52.733+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fe3e62b3a68c134451379"), 
+    "uid" : NumberInt(24), 
+    "vendor" : "Test 3", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T19:24:22.082+0000"), 
+    "__v" : NumberInt(0)
+},
+{ 
+    "_id" : ObjectId("645fe3f42b3a68c134451383"), 
+    "uid" : NumberInt(25), 
+    "vendor" : "Test 4", 
+    "status" : "offline", 
+    "date" : ISODate("2023-05-13T19:24:36.466+0000"), 
+    "__v" : NumberInt(0)
+}
